@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../public/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  font-size: 18px;
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 45px;
+}
+
+.navbar ul li a:hover{
+  color: aquamarine;
+}
+
+.home, .about, .contact {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+.places {
+  padding: 50px;
+  text-align: center;
+}
+
+.places-grid {
+  display:grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+}
+
+.place-card {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.place-card h3 {
+  margin: 15px 0;
+}
+
